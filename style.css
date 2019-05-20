@@ -12,6 +12,7 @@
     min-height: 60px;
     width: 100%;
     background-color: rgb(247, 55, 71);
+    box-shadow: 0px 2px 10px 0px black;
 }
 
 #header #logo {
@@ -53,9 +54,20 @@
     text-decoration: none;
     text-align: center;
     border: 2px dashed white;
+    border-radius: 15px;
     display: inline-block;
     padding: 10px;
     width: 100px;
 }
-  
-  
+
+#nav-bar .nav-link:hover {
+    background-color: rgb(247, 91, 104);
+}
+
+#video {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    padding-top: 60px;
+}
